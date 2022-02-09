@@ -52,6 +52,12 @@
             ]
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/deepcyrix/Xetaravel-Mentions"
+        }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true
 }
