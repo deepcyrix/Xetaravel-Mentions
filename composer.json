@@ -8,10 +8,10 @@
         "users",
         "notifications"
     ],
-    "homepage": "https://github.com/deepcyrix/Xetaravel-Mentions",
+    "homepage": "https://github.com/XetaIO/Xetaravel-Mentions",
     "support": {
-        "source": "https://github.com/deepcyrix/Xetaravel-Mentions",
-        "issues": "https://github.com/deepcyrix/Xetaravel-Mentions/issues"
+        "source": "https://github.com/XetaIO/Xetaravel-Mentions",
+        "issues": "https://github.com/XetaIO/Xetaravel-Mentions/issues"
     },
     "type": "library",
     "license": "MIT",
@@ -20,6 +20,12 @@
             "name": "Xety",
             "email": "emeric@xeta.io",
             "homepage": "https://github.com/Xety"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/deepcyrix/Xetaravel-Mentions"
         }
     ],
     "require": {
@@ -37,7 +43,7 @@
     },
     "autoload": {
         "psr-4": {
-            "deepcyrix\\Mentions\\": "src/"
+            "Xetaio\\Mentions\\": "src/"
         }
     },
     "autoload-dev": {
@@ -48,16 +54,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "deepcyrix\\Mentions\\Providers\\MentionServiceProvider"
+                "Xetaio\\Mentions\\Providers\\MentionServiceProvider"
             ]
         }
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/deepcyrix/Xetaravel-Mentions"
-        }
-    ],
     "minimum-stability": "dev",
     "prefer-stable": true
 }
