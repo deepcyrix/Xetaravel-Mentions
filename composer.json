@@ -29,7 +29,8 @@
         }
     ],
     "require": {
-        "php": "^8.0",
+        "php": "^7.3|^8.0",
+        "laravel/framework": "^8.0",
         "illuminate/support": "^7.0",
         "illuminate/database": "^7.0",
         "xety/configurator": "^1.0"
